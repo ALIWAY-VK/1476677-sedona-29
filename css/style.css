@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Pt Sans';
+  src: url('../fonts/ptsans.woff2') format('woff2'),
+    url('../fonts/ptsans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pt Sans';
+  src: url('../fonts/ptsansbold.woff2') format('woff2'),
+    url('../fonts/ptsansbold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --primary-color: #81B3D2;
+  --primary-hover-color: #669EC0;
+  --primary-active-color: #5496BD;
+}
+
+body {
+  font-family: 'Pt Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #888888;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.container {
+  background-color: var(--white-color);
+}
+
+.nav-link {
+  line-height: 26px;
+  font-weight: bold;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.nav-link:active {
+  color: var(--black-color);
+  opacity: 0.3;
+}
+
+.promo-title {
+  line-height: 26px;
+  font-weight: bold;
+  font-size: 21px;
+  width: 500px;
+  text-align: center;
+}
+
+.reasons-row {
+  display: flex;
+}
+.reasons-item.reasons-item--blue {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+.reasons-item {
+  padding: 20px;
+  background-color: #CCC;
+}
+
+.reasons-item-title {
+  font-weight: bold;
+}
+
